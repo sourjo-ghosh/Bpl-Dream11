@@ -1,11 +1,15 @@
 import React, { use } from 'react';
+import AvailablePlayers from '../AvailablePlayers/AvailablePlayers';
 
 const Players = ({playersPromise}) => {
-    const data = use(playersPromise);
-    console.log(data.length)
+    const PlayersData = use(playersPromise);
     return (
-        <div>
-            hello world 
+        <div className="grid grid-cols-3 gap-4">
+
+        {
+            PlayersData.map(data => <AvailablePlayers key={data.id} data={data}></AvailablePlayers>)
+        }
+        
         </div>
     );
 };
