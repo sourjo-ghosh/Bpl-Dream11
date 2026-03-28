@@ -4,6 +4,8 @@ import Banner from "./Components/HomePage/Banner/Banner.jsx";
 import Navbar from "./Components/HomePage/Navbar/Navbar.jsx";
 import Players from "./Components/HomePage/Players/Players.jsx";
 import Skeleton from "./Components/Skeleton/Skeleton.jsx";
+import { ToastContainer } from "react-toastify";
+import Footer from "./Components/HomePage/Footer/Footer.jsx";
 const fetchPlayers = async () => {
   const res = await fetch("/data.json");
   return res.json();
@@ -32,6 +34,10 @@ function App() {
           setCoin={setCoin}
         ></Players>
       </Suspense>
+      <Footer></Footer>
+
+      {/* React testify */}
+      <ToastContainer />
     </>
   );
 }

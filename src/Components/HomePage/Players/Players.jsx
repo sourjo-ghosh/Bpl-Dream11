@@ -5,9 +5,7 @@ import SelectedPlayers from "./SelectedPlayers/SelectedPlayers";
 const Players = ({ PlayersPromise, Coin , setCoin }) => {
     const [SelectedPlayersTab, setSelectedPlayersTab] = useState([])
   const PlayersData = use(PlayersPromise);
-//   console.log(PlayersData.length);
   const [ActiveBtn, setActiveBtn] = useState("available");
-//   console.log(ActiveBtn);
   return (
     <>
       <div className="my-4 text-2xl flex flex-col md:flex-row justify-between items-center gap-4">
@@ -16,11 +14,6 @@ const Players = ({ PlayersPromise, Coin , setCoin }) => {
             ? "Available Players"
             : `Selected Player (${SelectedPlayersTab.length}/${PlayersData.length})`}
         </p>
-        {/* <div className="flex justify-center items-center">
-        <button className={`btn btn-outline bg-[#E7FE29]  border-r-0 rounded-xl rounded-r-none`}>Available</button>
-        <button 
-        className={`btn btn-outline  border-l-0 rounded-xl rounded-l-none `}>Selected (0)</button>
-      </div> */}
         <div className="flex justify-center items-center">
           <button
             onClick={() => setActiveBtn("available")}
@@ -40,7 +33,7 @@ const Players = ({ PlayersPromise, Coin , setCoin }) => {
       {ActiveBtn === "available" ? (
         <AvailablePlayers PlayersData={PlayersData} Coin={Coin} setCoin={setCoin} SelectedPlayersTab={SelectedPlayersTab} setSelectedPlayersTab={setSelectedPlayersTab}></AvailablePlayers>
       ) : (
-        <SelectedPlayers SelectedPlayersTab={SelectedPlayersTab} setSelectedPlayersTab={setSelectedPlayersTab}></SelectedPlayers>
+        <SelectedPlayers SelectedPlayersTab={SelectedPlayersTab} Coin={Coin} setCoin={setCoin} setSelectedPlayersTab={setSelectedPlayersTab}></SelectedPlayers>
       )}
     </>
   );
