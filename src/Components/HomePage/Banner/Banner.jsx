@@ -1,6 +1,6 @@
 import React from "react";
-import BgShadowImg from "../../assets/bg-shadow.png";
-import BannerMainImg from "../../assets/banner-main.png";
+import BgShadowImg from "../../../assets/bg-shadow.png";
+import BannerMainImg from "../../../assets/banner-main.png";
 const Banner = () => {
   return (
     <>

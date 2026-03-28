@@ -7,7 +7,7 @@
     "rating": 92,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": 10,
+    "price": 1500000,
     "playerImage": "https://i.ibb.co.com/Vpjh90RH/virat-kholi.jpg"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 90,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 20,
+    "price": 1400000,
     "playerImage": "https://i.ibb.co.com/2rSPxXY/joe-root.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 89,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 30,
+    "price": 1350000,
     "playerImage": "https://i.ibb.co.com/j9mP4BFq/Kane-Williamson.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 91,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 40,
+    "price": 1450000,
     "playerImage": "https://i.ibb.co.com/hJLCJXFr/Babar-Azam.jpg"
   },
   {
@@ -165,3 +165,6 @@
     "playerImage": "https://i.ibb.co.com/nqGfhPD1/Kagiso-Rabada.jpg"
   }
 ]
+
+
+
