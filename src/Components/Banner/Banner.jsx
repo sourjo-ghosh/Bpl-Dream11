@@ -6,15 +6,15 @@ const Banner = () => {
     <>
       <div
         style={{ backgroundImage: `url(${BgShadowImg})` }}
-        className="my-3 rounded-3xl bg-black hero min-h-[80vh]"
+        className="my-3 rounded-3xl bg-black hero min-h-[70vh] md:min-h-[80vh]"
       >
         <div className="hero-content text-center">
           <div className="max-w-md flex justify-center items-center flex-col space-y-5">
             <img src={BannerMainImg} alt="" />
-            <p className="text-[40px] font-bold text-[#FFFFFF] md:whitespace-nowrap">
+            <p className="text-[40px] font-bold text-[#FFFFFF] lg:whitespace-nowrap">
               Assemble Your Ultimate Dream 11 Cricket Team
             </p>
-            <p className="text-[24px] font-medium text-[#ffffff]/50 md:whitespace-nowrap">
+            <p className="text-[24px] font-medium text-[#ffffff]/50 md:whitespace-rap">
               Beyond Boundaries Beyond Limits
             </p>
             <div className="py-2 px-2 border rounded-xl border-[#E7FE29]">
