@@ -5,9 +5,9 @@ import SelectedPlayers from "./SelectedPlayers/SelectedPlayers";
 const Players = ({ PlayersPromise, Coin , setCoin }) => {
     const [SelectedPlayersTab, setSelectedPlayersTab] = useState([])
   const PlayersData = use(PlayersPromise);
-  console.log(PlayersData.length);
+//   console.log(PlayersData.length);
   const [ActiveBtn, setActiveBtn] = useState("available");
-  console.log(ActiveBtn);
+//   console.log(ActiveBtn);
   return (
     <>
       <div className="my-4 text-2xl flex flex-col md:flex-row justify-between items-center gap-4">
