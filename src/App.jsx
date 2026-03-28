@@ -3,7 +3,7 @@ import './App.css'
 import Banner from './Components/Banner/Banner.jsx';
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import Players from './Components/Players/Players.jsx';
-import AvailableSection from './Components/AvailabelSection/AvailableSection.jsx';
+import AvailableSection from './Components/AvailableSection/AvailableSection.jsx';
 import Skeleton from './Components/Skeleton/Skeleton.jsx';
 
 const fetchPlayers = async () =>{

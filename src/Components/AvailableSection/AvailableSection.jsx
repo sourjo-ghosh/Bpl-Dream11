@@ -4,8 +4,8 @@ const AvailableSection = () => {
     const [ActiveBtn, setActiveBtn] = useState("available")
     // console.log(ActiveBtn, 'ActiveBtn')
   return (
-    <div className="my-4 flex justify-between items-center">
-      <p className="font-bold text-[17px] md:text-2xl text-center md:text-left">
+    <div className="my-4 text-2xl flex flex-col md:flex-row justify-between items-center gap-4">
+      <p className="font-bold text-[#131313] text-2xl">
         
         {ActiveBtn === "available" ? "Available Players" : "Selected Player (0/6)"}
       </p>

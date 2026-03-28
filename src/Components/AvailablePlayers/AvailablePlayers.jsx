@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CircleUserRound, Flag } from "lucide-react";
 const AvailablePlayers = ({ data, setCoin, coin }) => {
+  // console.log(setPlayerCount)
   const [IsSelected, setIsSelected] = useState(false);
   const PlayerPrice = data.price;
   // console.log(PlayerPriceReduce)
