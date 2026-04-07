@@ -5,6 +5,7 @@ A fantasy cricket team builder application where users can build their dream cri
 **🔗 Live Demo:** [https://bpl-dream11-nu.vercel.app/](https://bpl-dream11-nu.vercel.app/)
 
 ---
+<img width="1440" height="785" alt="Screenshot From 2026-04-07 21-46-26" src="https://github.com/user-attachments/assets/6b126256-833a-47e5-98ae-1bbc9a918f6e" />
 
 ## 📋 Project Overview
 
